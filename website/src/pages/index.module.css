@@ -1,0 +1,19 @@
+.heroBanner {
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-color-primary-darker);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 50px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

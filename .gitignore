@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+
+**/dist
+**/.turbo
+**/.angular
+**/.svelte-kit
