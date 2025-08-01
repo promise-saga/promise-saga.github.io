@@ -1,6 +1,6 @@
 {
   "name": "promise-saga",
-  "description": "Side-effects orchestrator",
+  "description": "A strongly typed side effects orchestrator",
   "version": "0.0.0",
   "private": true,
   "author": "Andrew Khantulin",
