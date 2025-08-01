@@ -1,0 +1,31 @@
+{
+  "name": "@promise-saga/core",
+  "description": "Side-effects orchestrator: Core",
+  "version": "0.0.0",
+  "author": "Andrew Khantulin",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc && vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "typescript": ">=4.7.0-beta"
+  },
+  "devDependencies": {
+    "@types/node": "24.1.0",
+    "typescript": "5.9.2",
+    "vite": "7.0.6",
+    "vite-plugin-dts": "4.5.4"
+  }
+}

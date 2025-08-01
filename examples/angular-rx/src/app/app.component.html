@@ -1,0 +1,15 @@
+<div>
+  <label>
+    <saga-checkbox [flow]="logNewTodoFlow"/>
+    Log new todo text, debounce 1000ms
+  </label>
+</div>
+
+<div>
+  <label>
+    <saga-checkbox [flow]="listenTogglesFlow"/>
+    Log todos toggling, count by 3
+  </label>
+</div>
+
+<todo-list/>

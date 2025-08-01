@@ -1,0 +1,37 @@
+{
+  "name": "example-angular-signal",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "20.1.4",
+    "@angular/compiler": "20.1.4",
+    "@angular/core": "20.1.4",
+    "@angular/forms": "20.1.4",
+    "@angular/platform-browser": "20.1.4",
+    "@angular/platform-browser-dynamic": "20.1.4",
+    "@angular/router": "20.1.4",
+    "@promise-saga/core": "workspace:*",
+    "@promise-saga/plugin-angular": "workspace:*",
+    "@promise-saga/plugin-default": "workspace:*",
+    "tslib": "2.8.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "20.1.4",
+    "@angular/cli": "20.1.4",
+    "@angular/compiler-cli": "20.1.4",
+    "@types/jasmine": "5.1.8",
+    "jasmine-core": "5.9.0",
+    "karma": "6.4.4",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-coverage": "2.2.1",
+    "karma-jasmine": "5.1.0",
+    "karma-jasmine-html-reporter": "2.1.0",
+    "typescript": "5.8.3"
+  }
+}

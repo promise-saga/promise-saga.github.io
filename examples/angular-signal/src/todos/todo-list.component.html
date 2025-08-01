@@ -1,0 +1,28 @@
+<h4>Todos</h4>
+
+<input
+  [value]="newTodoText()"
+  type="text"
+  placeholder="New todo"
+  (input)="changeNewTodo($event)"
+  (keyup.enter)="onAddTodo($event)"
+/>
+
+<ol>
+  <li *ngFor="let todo of todos()">
+    <label [ngClass]="{ completed: todo.isCompleted }">
+      <input
+        type="checkbox"
+        [checked]="todo.isCompleted"
+        (change)="onToggle(todo.id)"
+      />
+      {{ todo.text }}
+    </label>
+  </li>
+</ol>
+
+<style>
+  .completed {
+    text-decoration: line-through;
+  }
+</style>

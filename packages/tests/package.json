@@ -1,0 +1,27 @@
+{
+  "name": "@promise-saga/tests",
+  "description": "Side-effects orchestrator: Tests",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Andrew Khantulin",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "tsc": "tsc",
+    "test": "tsc && vitest"
+  },
+  "peerDependencies": {
+    "@promise-saga/core": ">=0.0.1",
+    "@promise-saga/plugin-default": ">=0.0.1",
+    "@promise-saga/plugin-redux": ">=0.0.1",
+    "typescript": ">=4.7.0-beta"
+  },
+  "devDependencies": {
+    "@promise-saga/core": "workspace:*",
+    "@promise-saga/plugin-default": "workspace:*",
+    "@promise-saga/plugin-redux": "workspace:*",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  }
+}

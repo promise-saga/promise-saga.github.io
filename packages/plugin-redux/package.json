@@ -1,0 +1,37 @@
+{
+  "name": "@promise-saga/plugin-redux",
+  "description": "Side-effects orchestrator: Redux plugin",
+  "version": "0.0.0",
+  "author": "Andrew Khantulin",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc && vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@promise-saga/core": ">=0.0.1",
+    "@promise-saga/plugin-react": ">=0.0.1",
+    "@reduxjs/toolkit": ">=1.8.1",
+    "typescript": ">=4.7.0-beta"
+  },
+  "devDependencies": {
+    "@promise-saga/core": "workspace:*",
+    "@promise-saga/plugin-react": "workspace:*",
+    "@reduxjs/toolkit": "2.8.2",
+    "@types/node": "24.1.0",
+    "typescript": "5.9.2",
+    "vite": "7.0.6",
+    "vite-plugin-dts": "4.5.4"
+  }
+}
