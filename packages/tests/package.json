@@ -13,9 +13,9 @@
     "test": "tsc && vitest"
   },
   "peerDependencies": {
-    "@promise-saga/core": ">=0.0.2",
-    "@promise-saga/plugin-default": ">=0.0.2",
-    "@promise-saga/plugin-redux": ">=0.0.2",
+    "@promise-saga/core": ">=0.0.3",
+    "@promise-saga/plugin-default": ">=0.0.3",
+    "@promise-saga/plugin-redux": ">=0.0.3",
     "typescript": ">=4.7.0-beta"
   },
   "devDependencies": {

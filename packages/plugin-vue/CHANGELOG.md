@@ -1,5 +1,14 @@
 # @promise-saga/plugin-vue
 
+## 0.0.3
+
+### Patch Changes
+
+- Add default README
+- Updated dependencies
+  - @promise-saga/core@0.0.3
+  - @promise-saga/plugin-default@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

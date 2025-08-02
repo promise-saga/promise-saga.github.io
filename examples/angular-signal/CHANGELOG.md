@@ -1,5 +1,14 @@
 # example-angular-signal
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @promise-saga/core@0.0.3
+  - @promise-saga/plugin-angular@0.0.3
+  - @promise-saga/plugin-default@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

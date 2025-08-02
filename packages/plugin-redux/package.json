@@ -1,6 +1,6 @@
 {
   "name": "@promise-saga/plugin-redux",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Side-effects orchestrator: Redux integration plugin",
   "author": "Andrew Khantulin <axsq13@gmail.com>",
   "homepage": "https://promise-saga.github.io",
@@ -15,8 +15,8 @@
     "build": "tsc && vite build"
   },
   "peerDependencies": {
-    "@promise-saga/core": ">=0.0.2",
-    "@promise-saga/plugin-react": ">=0.0.2",
+    "@promise-saga/core": ">=0.0.3",
+    "@promise-saga/plugin-react": ">=0.0.3",
     "@reduxjs/toolkit": ">=1.8.1",
     "typescript": ">=4.7.0-beta"
   },

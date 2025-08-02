@@ -1,5 +1,13 @@
 # @promise-saga/plugin-react-query
 
+## 0.0.3
+
+### Patch Changes
+
+- Add default README
+- Updated dependencies
+  - @promise-saga/core@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes
