@@ -1,6 +1,6 @@
 {
   "name": "@promise-saga/plugin-fetch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise Saga: Fetch API integration with cancelable requests",
   "author": "Andrew Khantulin <axsq13@gmail.com>",
   "homepage": "https://promise-saga.github.io",
@@ -15,7 +15,7 @@
     "build": "tsc && vite build"
   },
   "peerDependencies": {
-    "@promise-saga/core": ">=0.0.1",
+    "@promise-saga/core": ">=0.0.2",
     "typescript": ">=4.7.0-beta"
   },
   "devDependencies": {
@@ -34,8 +34,16 @@
     "email": "promisesaga.dev@gmail.com"
   },
   "keywords": [
-    "promise-saga", "fetch", "browser fetch", "http", "effects", "cancelable requests",
-    "typescript", "type-checking", "side effects", "network"
+    "promise-saga",
+    "fetch",
+    "browser fetch",
+    "http",
+    "effects",
+    "cancelable requests",
+    "typescript",
+    "type-checking",
+    "side effects",
+    "network"
   ],
   "publishConfig": {
     "access": "public"

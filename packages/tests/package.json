@@ -1,6 +1,6 @@
 {
   "name": "@promise-saga/tests",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise Saga: Tests",
   "author": "Andrew Khantulin <axsq13@gmail.com>",
   "homepage": "https://promise-saga.github.io",
@@ -13,9 +13,9 @@
     "test": "tsc && vitest"
   },
   "peerDependencies": {
-    "@promise-saga/core": ">=0.0.1",
-    "@promise-saga/plugin-default": ">=0.0.1",
-    "@promise-saga/plugin-redux": ">=0.0.1",
+    "@promise-saga/core": ">=0.0.2",
+    "@promise-saga/plugin-default": ">=0.0.2",
+    "@promise-saga/plugin-redux": ">=0.0.2",
     "typescript": ">=4.7.0-beta"
   },
   "devDependencies": {

@@ -1,5 +1,14 @@
 # example-react-mobx
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @promise-saga/core@0.0.2
+  - @promise-saga/plugin-default@0.0.2
+  - @promise-saga/plugin-react@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

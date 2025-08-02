@@ -1,6 +1,6 @@
 {
   "name": "@promise-saga/plugin-default",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise Saga: Default plugin for quick project setup",
   "author": "Andrew Khantulin <axsq13@gmail.com>",
   "homepage": "https://promise-saga.github.io",
@@ -15,7 +15,7 @@
     "build": "tsc && vite build"
   },
   "peerDependencies": {
-    "@promise-saga/core": ">=0.0.1",
+    "@promise-saga/core": ">=0.0.2",
     "typescript": ">=4.7.0-beta"
   },
   "devDependencies": {
@@ -34,8 +34,16 @@
     "email": "promisesaga.dev@gmail.com"
   },
   "keywords": [
-    "promise-saga", "promise saga", "saga", "async", "effects", "state management",
-    "typescript", "type-checking", "side effects", "async flow"
+    "promise-saga",
+    "promise saga",
+    "saga",
+    "async",
+    "effects",
+    "state management",
+    "typescript",
+    "type-checking",
+    "side effects",
+    "async flow"
   ],
   "publishConfig": {
     "access": "public"

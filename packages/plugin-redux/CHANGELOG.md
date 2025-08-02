@@ -1,5 +1,14 @@
 # @promise-saga/plugin-redux
 
+## 0.0.2
+
+### Patch Changes
+
+- Update package.json
+- Updated dependencies
+  - @promise-saga/core@0.0.2
+  - @promise-saga/plugin-react@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

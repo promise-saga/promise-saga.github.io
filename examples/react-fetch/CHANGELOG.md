@@ -1,5 +1,13 @@
 # example-react-fetch
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @promise-saga/core@0.0.2
+  - @promise-saga/plugin-fetch@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes
