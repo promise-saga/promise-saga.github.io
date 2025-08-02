@@ -7,5 +7,5 @@ import {UseSagaReturn} from '@promise-saga/plugin-angular';
   standalone: true,
 })
 export class SagaCheckbox {
-  @Input() flow!: UseSagaReturn<any>;
+  @Input() flow!: UseSagaReturn;
 }

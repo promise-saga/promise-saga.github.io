@@ -13,8 +13,8 @@ import {useDebounce} from '../saga';
   standalone: true,
 })
 export class AppComponent {
-  listenTogglesFlow: UseSagaReturn<never>;
-  logNewTodoFlow: UseSagaReturn<void>;
+  listenTogglesFlow: UseSagaReturn;
+  logNewTodoFlow: UseSagaReturn;
 
   constructor() {
     const {changeNewTodo} = inject(TodosStateService);
