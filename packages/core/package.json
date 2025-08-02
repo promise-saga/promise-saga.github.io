@@ -1,24 +1,19 @@
 {
   "name": "@promise-saga/core",
-  "description": "Side-effects orchestrator: Core",
   "version": "0.0.1",
-  "author": "Andrew Khantulin",
+  "description": "Promise Saga: Core library for managing async flows with cancelable effects",
+  "author": "Andrew Khantulin <axsq13@gmail.com>",
+  "homepage": "https://promise-saga.github.io",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "tsc": "tsc",
     "build": "tsc && vite build"
   },
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "typescript": ">=4.7.0-beta"
   },
@@ -27,5 +22,23 @@
     "typescript": "5.9.2",
     "vite": "7.0.6",
     "vite-plugin-dts": "4.5.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:promise-saga/promise-saga.github.io.git"
+  },
+  "bugs": {
+  	"url": "https://github.com/promise-saga/promise-saga.github.io/issues",
+  	"email": "promisesaga.dev@gmail.com"
+  },
+  "keywords": [
+    "promise-saga", "promise saga", "saga", "async", "effects", "cancelable", "cancellable",
+    "typescript", "type-checking", "side effects", "async flow"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
 }

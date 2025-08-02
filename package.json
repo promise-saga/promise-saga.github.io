@@ -1,11 +1,13 @@
 {
   "name": "promise-saga",
-  "description": "A strongly typed side effects orchestrator",
   "version": "0.0.0",
-  "private": true,
-  "author": "Andrew Khantulin",
-  "type": "module",
+  "description": "Promise Saga: A strongly typed side effects orchestrator",
+  "author": "Andrew Khantulin <axsq13@gmail.com>",
+  "homepage": "https://promise-saga.github.io",
   "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "private": true,
   "packageManager": "pnpm@10.14.0",
   "scripts": {
     "build": "turbo run build",
@@ -14,5 +16,13 @@
   "devDependencies": {
     "@types/node": "24.1.0",
     "turbo": "2.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:promise-saga/promise-saga.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/promise-saga/promise-saga.github.io/issues",
+    "email": "promisesaga.dev@gmail.com"
   }
 }

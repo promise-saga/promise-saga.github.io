@@ -1,24 +1,19 @@
 {
   "name": "@promise-saga/plugin-redux",
-  "description": "Side-effects orchestrator: Redux plugin",
   "version": "0.0.1",
-  "author": "Andrew Khantulin",
+  "description": "Side-effects orchestrator: Redux integration plugin",
+  "author": "Andrew Khantulin <axsq13@gmail.com>",
+  "homepage": "https://promise-saga.github.io",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "tsc": "tsc",
     "build": "tsc && vite build"
   },
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "@promise-saga/core": ">=0.0.1",
     "@promise-saga/plugin-react": ">=0.0.1",
@@ -33,5 +28,23 @@
     "typescript": "5.9.2",
     "vite": "7.0.6",
     "vite-plugin-dts": "4.5.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:promise-saga/promise-saga.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/promise-saga/promise-saga.github.io/issues",
+    "email": "promisesaga.dev@gmail.com"
+  },
+  "keywords": [
+    "promise-saga", "saga", "redux", "async", "effects", "state management",
+    "typescript", "type-checking", "side effects", "async flow"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
 }

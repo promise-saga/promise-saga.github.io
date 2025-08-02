@@ -1,24 +1,19 @@
 {
   "name": "@promise-saga/plugin-react-query",
-  "description": "Side-effects orchestrator: React-Query plugin",
   "version": "0.0.1",
-  "author": "Andrew Khantulin",
+  "description": "Side-effects orchestrator: React-Query plugin for cancelable HTTP requests",
+  "author": "Andrew Khantulin <axsq13@gmail.com>",
+  "homepage": "https://promise-saga.github.io",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "tsc": "tsc",
     "build": "tsc && vite build"
   },
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "@promise-saga/core": ">=0.0.1",
     "@tanstack/react-query": ">=5.51.15",
@@ -31,5 +26,23 @@
     "typescript": "5.9.2",
     "vite": "7.0.6",
     "vite-plugin-dts": "4.5.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:promise-saga/promise-saga.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/promise-saga/promise-saga.github.io/issues",
+    "email": "promisesaga.dev@gmail.com"
+  },
+  "keywords": [
+    "promise-saga", "react-query", "fetch", "http client", "effects", "cancelable requests",
+    "typescript", "type-checking", "side effects", "network"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
 }
