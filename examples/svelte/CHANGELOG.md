@@ -1,5 +1,12 @@
 # example-svelte
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @promise-saga/plugin-svelte@0.0.4
+
 ## 0.0.3
 
 ### Patch Changes

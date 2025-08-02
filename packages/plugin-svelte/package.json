@@ -1,6 +1,6 @@
 {
   "name": "@promise-saga/plugin-svelte",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Promise Saga: Svelte integration plugin",
   "author": "Andrew Khantulin <axsq13@gmail.com>",
   "homepage": "https://promise-saga.github.io",

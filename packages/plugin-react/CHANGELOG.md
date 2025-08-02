@@ -1,5 +1,11 @@
 # @promise-saga/plugin-react
 
+## 0.0.4
+
+### Patch Changes
+
+- Add UseSagaReturn default type any
+
 ## 0.0.3
 
 ### Patch Changes

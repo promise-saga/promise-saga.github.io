@@ -1,5 +1,13 @@
 # example-react-redux
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @promise-saga/plugin-react@0.0.4
+  - @promise-saga/plugin-redux@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes
