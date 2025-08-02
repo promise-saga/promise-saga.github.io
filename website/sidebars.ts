@@ -9,6 +9,11 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "doc",
+          label: "Overview",
+          id: "overview",
+        },
+        {
+          type: "doc",
           label: "Basic concepts",
           id: "basics",
         },

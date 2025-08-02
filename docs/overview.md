@@ -3,7 +3,7 @@
 Promise Saga is a side effects orchestrator boasting several competitive qualities:
 
 1. **Strongly typed** - we embrace [Typescript](https://www.typescriptlang.org) for its strong typing capabilities.
-2. **Agnostic but pluggable** - while Promise Saga is agnostic to specific libraries, it has a set of plugins for popular libraries like [Redux](https://redux.js.org), [Zustand](https://zustand-demo.pmnd.rs) and others.
+2. **Agnostic but pluggable** - while Promise Saga is agnostic to specific libraries, it has a set of plugins for popular libraries like [Redux](https://redux.js.org) and [Zustand](https://zustand-demo.pmnd.rs).
 3. **In-component saga usage** - sagas can be manually cancelled or automatically cancelled upon the unmount of a [React](https://react.dev) component.
 4. **Cancellable network requests out of the box** - we provide plugins for [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) and [Axios](https://axios-http.com) that support cancellable network requests.
 

@@ -68,8 +68,8 @@ const config: Config = {
       },
       items: [
         {
-          to: '/docs/basics',
-          label: 'Basics',
+          to: '/docs/overview',
+          label: 'Overview',
           position: 'left',
         },
         {
