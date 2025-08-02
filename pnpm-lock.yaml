@@ -215,6 +215,9 @@ importers:
       '@promise-saga/plugin-axios':
         specifier: workspace:*
         version: link:../../packages/plugin-axios
+      axios:
+        specifier: 1.11.0
+        version: 1.11.0
       react:
         specifier: 19.1.1
         version: 19.1.1
