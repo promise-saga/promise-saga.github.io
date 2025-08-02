@@ -12,7 +12,7 @@ export type UseSagaWithConfig<T, P extends any[], ET extends AnyRecord> = {
 export type UseSagaOrWithConfig<T, P extends any[], ET extends AnyRecord> =
   | Saga<T, P, ET>
   | UseSagaWithConfig<T, P, ET>;
-export type UseSagaReturn<T> = {
+export type UseSagaReturn<T = any> = {
   result: Ref<T | undefined>,
   isDone: Ref<boolean>,
   isRunning: Ref<boolean>,
